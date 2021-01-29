@@ -2,12 +2,14 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <string>
 #include "afyusrefova18.h"
 using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
     // comment
 }
 
