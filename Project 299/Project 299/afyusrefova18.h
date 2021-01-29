@@ -4,6 +4,7 @@
 #include <string>
 using namespace std;
 
+
 struct COMPUTER
 {
 	string brand;
@@ -13,3 +14,4 @@ struct COMPUTER
 	
 };
 
+void initComputers(vector<COMPUTER>sampleItem);
