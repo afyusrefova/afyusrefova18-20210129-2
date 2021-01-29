@@ -1,7 +1,9 @@
 #pragma once
 #include <string>
+
 struct COMPUTER {
 	int price;
-	int data;
+	int yearOfManufacture;
 	string brand;
+	string type;
 };
