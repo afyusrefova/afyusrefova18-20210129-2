@@ -14,13 +14,17 @@ void initComputers(vector<COMPUTER>sampleItem)
         {"HP", "laptop", 800, 2018} };
 }
 
-void showComputer(vector<COMPUTER> computer)
+void showComputer(COMPUTER computer)
 {
-    for (int i = 0; i < computer.size(); i++)
+    cout << computer.brand<<", ";
+    cout << computer.type<<", ";
+    cout << computer.price << ", ";
+    cout << computer.yearOfManufacture << endl;
+    /*for (int i = 0; i < computer.size(); i++)
     {
             cout << computer[i].brand << ", " << computer[i].type << ", " << computer[i].price << ", " << computer[i].yearOfManufacture;
     }
-    
+    */
 }
 
 void createComputer(vector<COMPUTER>createC, COMPUTER comp1)
@@ -46,5 +50,9 @@ COMPUTER enterComputer()
 
 void showComputers(vector <COMPUTER> comp3)
 {
-    showComputer(comp3);
+    for (int i = 0; i < comp3.size(); i++)
+    {
+        showComputer(comp3[i]);
+    }
 }
+
