@@ -17,3 +17,4 @@ struct COMPUTER
 //functions in usage
 void initComputers(vector<COMPUTER>sampleItem);
 void showComputers(vector<COMPUTER> computer);
+void createComputer(vector<COMPUTER>createC, COMPUTER comp1);

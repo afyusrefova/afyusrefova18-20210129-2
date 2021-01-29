@@ -26,3 +26,12 @@ void showComputers(vector<COMPUTER> computer)
     
 }
 
+void createComputer(vector<COMPUTER>createC, COMPUTER comp1)
+{
+    comp1.brand = "Google";
+    comp1.type = "laptop";
+    comp1.price = 1700;
+    comp1.yearOfManufacture = 2021;
+
+    createC.push_back(comp1);
+}
