@@ -35,3 +35,14 @@ void createComputer(vector<COMPUTER>createC, COMPUTER comp1)
 
     createC.push_back(comp1);
 }
+
+COMPUTER enterComputer()
+{
+    COMPUTER comp2;
+    cin >> comp2.brand;
+    cin >> comp2.type;
+    cin >> comp2.price;
+    cin >> comp2.yearOfManufacture;
+
+    return comp2;
+}
