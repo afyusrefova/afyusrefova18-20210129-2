@@ -7,12 +7,15 @@ using namespace std;
 
 void initComputers(vector<COMPUTER>sampleItem)
 {
-    sampleItem[0].brand = "Apple";
-    sampleItem[1].brand = "Lenovo";
-    sampleItem[2].brand = "Acer";
-    sampleItem[3].brand = "Dell";
-    sampleItem[4].brand = "HP";
+    sampleItem = { {"Apple", "pc", 4000, 2021},
+        {"Lenovo", "pc", 1400, 2020},
+        {"Acer", "laptop", 2000, 2020},
+        {"Dell", "pc", 1600, 2021},
+        {"HP", "laptop", 800, 2018} };
 }
 
-
+void showComputers()
+{
+   
+}
 
