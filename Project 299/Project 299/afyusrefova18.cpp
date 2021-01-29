@@ -14,8 +14,15 @@ void initComputers(vector<COMPUTER>sampleItem)
         {"HP", "laptop", 800, 2018} };
 }
 
-void showComputers()
+void showComputers(vector<COMPUTER> computer)
 {
-   
+    for (int i = 0; i < computer.size(); i++)
+    {
+        if (computer[i].brand == "Apple")
+        {
+            cout << computer[i].brand << ", " << computer[i].type << ", " << computer[i].price << ", " << computer[i].yearOfManufacture;
+        }
+    }
+    
 }
 
